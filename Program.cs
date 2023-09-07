@@ -36,8 +36,7 @@ namespace dotNET_Module_1_HomeWork
                 {
                     flag = false;
                 }
-            }
-            Console.WriteLine(str.Length-2);
+            } 
             str  = str.Remove(str.Length-3,3);
             str += " = ";
             Console.WriteLine(str + numbers);
